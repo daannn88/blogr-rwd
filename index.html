@@ -20,7 +20,7 @@
         <header class="main-container__header">
             <nav class="main-container__header__nav">
                 <div class="main-container__header__nav__container">
-                    <h1 class="main-container__header__nav__container__logo">Blogr</h1>
+                    <h1 class="main-container__header__nav__container__logo" id="logo">Blogr</h1>
                     <div class="main-container__header__nav__container__tabs">
                         <div class="main-container__header__nav__container__tabs__tab">Product</div>
                         <div class="main-container__header__nav__container__tabs__tab">Company</div>
@@ -32,7 +32,7 @@
                     <button class="main-container__header__nav__buttons__login-button">Login</button>
                     <button class="main-container__header__nav__buttons__sign-up-button">Sign up</button>
                 </div>
-                <img src="./img/icono-hamburguesa.png" alt="menu" class="main-container__header__nav__burguer">
+                <img src="./img/icono-hamburguesa.png" alt="menu" class="main-container__header__nav__burguer" onclick="abrir()" id="burguer">
             </nav>
             <div class="main-container__header__container">
                 <div class="main-container__header__container__start">
@@ -99,9 +99,37 @@
             </div>
         </main>
         <footer class="main-container__footer">
-            <div class="container">
-                Pie de pagina
-            </div>
+            <!-- <div class="main-container__footer__container"> -->
+                <div class="main-container__footer__container__title">
+                    <h1>Blogr</h1>
+                </div>
+                <div class="main-container__footer__container__list1">
+                    <h3>Product</h3>
+                    <ul class="list__without-padding">
+                        <li>Overview</li>
+                        <li>Pricing</li>
+                        <li>Marketplace</li>
+                        <li>Features</li>
+                        <li>Integrations</li>
+                    </ul>
+                </div>
+                <div class="main-container__footer__container__list2">
+                    <ul class="list__without-padding">
+                        <li>Company</li>
+                        <li>About</li>
+                        <li>Team</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="main-container__footer__container__list3">
+                    <ul class="list__without-padding">
+                        <li>Connect</li>
+                        <li>Contact</li>
+                        <li>Newsietter</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                </div>
         </footer>
     </div>
     <script src="./js/script.js"></script>
