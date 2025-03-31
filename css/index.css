@@ -251,7 +251,7 @@ body {
 /* footer */
 
 .main-container__footer{
-    background-color: rgb(64, 60, 92);
+    background-color: #25242c;
     color: white;
     display: flex;
     flex-direction: column;
@@ -260,7 +260,7 @@ body {
     width: auto;
     border-radius: 0 100px 0 0;
     text-align: center;
-    @media (min-width: 1240px) {
+    @media (min-width: 1024px) {
         flex-direction: row;
         align-items: flex-start;
         padding: 10px;
