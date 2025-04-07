@@ -231,7 +231,9 @@ body {
 
 .main-container__main__container__card__background__image-2 {
     position: absolute;
-    width: auto;
+    max-width: 90%;
+    height: 38rem;
+    max-height: min-content;
     @media (min-width: 1024px) {
         top: -105px;
     }
